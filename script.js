@@ -45,7 +45,7 @@ function renderNotes() {
 
             let editIcon = document.createElement('span')
             editIcon.id = 'edit'
-            editIcon.classList.add ('fas', 'fa-edit', 'mar-l-xs')
+            editIcon.classList.add ('fas', 'fa-save', 'mar-l-xs')
             noteCard.append(editIcon)
 
             let deleteIcon = document.createElement('span')
