@@ -1,0 +1,13 @@
+body {
+  box-sizing: border-box;
+}
+
+#delete {
+  font-size: 22px;
+  color: black;
+  vertical-align: bottom;
+}
+
+ul {
+  list-style-type: none;
+}

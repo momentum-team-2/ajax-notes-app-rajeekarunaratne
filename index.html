@@ -4,9 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Notes</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.shoelace.style/1.0.0-beta.25/shoelace.css">
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.26.0/moment.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src='moment.min.js' defer></script> -->
+  <script src='script.js' defer></script>
+  <title>NOTES</title>
 </head>
 <body>
-  
+  <header>
+    <h1>Notes</h1>
+  </header>
+  <main class='notes-content'>
+    <form id='notes-form' class='form'>
+      <div class='input-field'>
+        <label for="notes-input">Create a new note:</label>
+        <input type="text" id='notes-input'>
+      </div>
+      <div class='input-field'>
+        <button type='submit' class='button'>Add note</button>
+      </div>
+    </form>
+    <section class='notes'></section>
+  </main>
 </body>
 </html>
