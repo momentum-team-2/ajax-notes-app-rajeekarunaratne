@@ -1,0 +1,14 @@
+body {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#delete {
+  font-size: 22px;
+  color: black;
+  vertical-align: bottom;
+}
+
+ul {
+  list-style-type: none;
+}
